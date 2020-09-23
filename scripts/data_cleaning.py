@@ -21,10 +21,10 @@ x=re.findall("ai",txt)
 print(x)'''
 
 # Return Empty if no match found
-
+'''
 txt="The rain in Spain"
 x=re.findall("Poryugal",txt)
-print(x)
+print(x)'''
 
 # Search() Function--> searches the string for a match, and returns a Match object if there is a match.
 #If there is more than one match, only the first occurrence of the match will be returned:
@@ -53,7 +53,7 @@ x=re.sub("\s","9",txt)
 print(x)'''
 
 #we can control the number of replacements by specifying the count parameter:
-
+'''
 txt="The rain in spain"
 x=re.sub("\s","9",txt,2)
-print(x)
+print(x)'''
